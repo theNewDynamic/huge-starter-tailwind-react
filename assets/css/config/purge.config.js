@@ -1,6 +1,5 @@
 module.exports = {
   enabled: process.env.HUGO_ENV ? process.env.HUGO_ENV !== 'development' : false,
-  mode: 'all',
   content: [
     './hugo_stats.json',
     './func/*.html',
