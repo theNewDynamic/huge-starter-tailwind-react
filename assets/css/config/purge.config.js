@@ -16,6 +16,6 @@ module.exports = {
     },
   ],
   options: {
-    safelist: [],
+    safelist: ["h-10"],
   }
 }
