@@ -1,0 +1,9 @@
+# https://github.com/theNewDynamic/huge/wiki/Styles
+styles:
+- name: main
+  path: css/main.scss
+  fingerprint: production
+  minify: production
+  integrity: true
+  use:
+  - tailwind

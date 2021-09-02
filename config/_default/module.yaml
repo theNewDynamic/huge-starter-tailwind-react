@@ -1,0 +1,7 @@
+mounts:
+  - source: assets
+    target: assets
+  - source: _huge
+    target: assets/_huge
+imports:
+  - path: github.com/theNewDynamic/huge

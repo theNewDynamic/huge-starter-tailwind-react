@@ -1,0 +1,23 @@
+{
+  "author": "theNewDynamic",
+  "description": "HUGE Starter: Tailwind + React",
+  "keywords": [
+    "hugo",
+    "huge",
+    "starter"
+  ],
+  "license": "MIT",
+  "name": "huge_starter_tailwind_react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theNewDynamic/huge-starter-tailwind-react"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tailwindcss": "^2.2.7"
+  }
+}

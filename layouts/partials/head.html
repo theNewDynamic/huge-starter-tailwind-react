@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="env" content="{{ partial "huge/env/Get" "Get" }}">
+
+{{/* Styles */}}
+{{ partial "huge/styles/tags" "main" }}
+
+{{/* Scripts */}}
+{{ if .IsHome }}
+  {{ partial "huge/scripts/tags" (slice "hugely") }}
+{{ end }}
+
+{{/* SEO */}}
+{{ partial "huge/seo/tags" $ }}
+{{/* Fonts */}}
+{{ partial "huge/fonts/tags" "fonts" }}

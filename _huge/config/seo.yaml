@@ -1,0 +1,5 @@
+# https://github.com/theNewDynamic/huge/wiki/SEO
+jsonld: true
+enable_follow: true
+disable_title: false
+default_image: /seo/default.png

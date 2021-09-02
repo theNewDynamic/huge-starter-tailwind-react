@@ -1,0 +1,29 @@
+# https://github.com/theNewDynamic/huge/wiki/Fonts
+fonts:
+- family: Open
+  file: fonts/open-sans-v17-latin-300
+  weight: 300
+  style: normal
+- family: Open
+  file: fonts/open-sans-v17-latin-300italic
+  weight: 300
+  style: italic
+- family: Open
+  file: fonts/OpenSans-ExtraBold
+  weight: 900
+  style: normal
+- family: Open
+  file: fonts/open-sans-v17-latin-regular
+  weight: 400
+- family: Open
+  file: fonts/open-sans-v17-latin-italic
+  weight: 400
+  style: italic
+- family: Open
+  file: fonts/open-sans-v17-latin-700
+  weight: 700
+  style: normal
+- family: Open
+  file: fonts/open-sans-v17-latin-700italic
+  weight: 700
+  style: italic

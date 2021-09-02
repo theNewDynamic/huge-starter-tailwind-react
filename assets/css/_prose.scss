@@ -1,0 +1,11 @@
+.prose{
+  a, a:visited{
+    @apply text-red-600 underline;
+  }
+  p, pre{
+    @apply my-4;
+  }
+  strong{
+    @apply font-bold;
+  }
+}

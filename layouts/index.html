@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div id="root"></div>
+  <div class="max-w-3xl mx-auto px-4">
+    <div class="text-xl prose">
+      Styles and scripts building, media transformation, self-loaded fonts and SEO in the configuration. <strong>Hugo</strong> is even more declarative with <strong><a href="https://github.com/theNewDynamic/huge/wiki">HUGE</a></strong>.
+    </div>
+  </div>
+  <div class="my-8 px-4 grid gap-8 md:grid-cols-2 max-w-7xl mx-auto prose">
+    {{ .Content }}
+  </div>
+{{ end }}

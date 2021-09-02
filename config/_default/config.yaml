@@ -1,0 +1,8 @@
+# Config Base
+# This is where root config key goes.
+# ###################################
+title: Huge Starter Tailwind + React
+baseURL: https://huge-starter-tailwind-react.netlify.app
+DefaultContentLanguage: en
+enableRobotsTXT: true
+disableAliases: true
