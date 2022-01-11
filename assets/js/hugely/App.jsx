@@ -19,7 +19,7 @@ export default class App extends Component {
     return (
       <div className="text-center">
         <TextInput textChange={this.handleTextChange} />
-        <div className="p-px text-8xl sm:text-9xl md:text-huge font-black max-w-7xl my-3 mx-auto uppercase relative z-0">
+        <div className="p-px text-8xl sm:text-9xl md:text-huge font-extrabold max-w-7xl my-3 mx-auto uppercase relative z-0">
           {this.state.text}
         </div>
 
