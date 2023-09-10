@@ -1,5 +1,9 @@
 module.exports = {
-  purge: require('./purge.config.js'),
+  content: [
+    './hugo_stats.json',
+    './assets/js/**/*.jsx'
+  ],
+  safelist: ["h-10"],
   darkMode: 'media',
   theme: {
     extend: {

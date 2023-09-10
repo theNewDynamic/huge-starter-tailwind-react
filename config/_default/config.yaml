@@ -6,6 +6,3 @@ baseURL: https://huge-starter-tailwind-react.netlify.app
 DefaultContentLanguage: en
 enableRobotsTXT: true
 disableAliases: true
-
-build:
-  writeStats: true
