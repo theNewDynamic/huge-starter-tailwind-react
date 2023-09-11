@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="mx-auto px-4">
+  <h1 class="font-bold text-3xl mb-4">Medias</h1>
+
+  {{ range $number := seq 1 10 }}
+    {{ with partial "huge/media/Get" (dict
+      "path" "/uploads/snowstairs.jpg"
+      "width" (mul $number 100)
+    ) }}
+      <img  class="my-4 block" src="{{ .RelPermalink }}" alt="Snow and stairs, and little bit of trash.">
+    {{ end }}
+  {{ end }}
+
+</div>
+{{ end }}

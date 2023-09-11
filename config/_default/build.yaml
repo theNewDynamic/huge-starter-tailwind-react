@@ -1,0 +1,4 @@
+writeStats: true
+cachebusters:
+  - source: assets/watching/hugo_stats\.json
+    target: css
